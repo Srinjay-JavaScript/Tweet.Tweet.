@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tweet.Tweet.</title>
+	<link rel="shortcut icon" href="t2.jpg" type="x/image">
+	<link rel="shortcut icon" href="LOGO.jpg" type="x/image">	
+	<script src="main.js"></script>	
+</head>
+
+<body onload="background_change()">
+	<div class="container" id="container">
+		<div class="log-in-container">
+              <div class="login_form">
+				<h1 class="display-horizontal" style="margin-bottom: 35px;">Tweet.Tweet.</h1><span></span><sup>
+					<img class="display-horizontal" id="logo" src="t2.jpg" width="60px" height="60px">
+					</sup>
+				<div class="social-container">
+					<a href="https://www.facebook.com/" target="_blank" class="social"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/" target="_blank" class="social"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+				</div>
+				<span>Tweet.Tweet. | Tweet | Anytime </span>
+				<input id="user_name" type="text" placeholder="Username"/>
+				<input  data-toggle="tooltip" data-html="true" title="<b>Password</b> <u>must</u> be a <i>minimum</i> of <b style='color: red;'>8</b> characters." data-placement="bottom" id="user_password" minlength="8" type="password" placeholder="Password"/>
+				<a href="#">Don't forget to have fun</a>
+				<button onclick="Alertcheck()" >Log In</button>
+			</div>
+		</div>
+		<div class="overlay-container">
+			<div id="overlay">
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>
