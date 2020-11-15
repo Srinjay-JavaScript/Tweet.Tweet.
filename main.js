@@ -1,8 +1,4 @@
-
-
-
-
-   function background_change(){
+function background_change(){
     console.log("please");
     var background_images = ["tm.jpg", "Burj-Khalifa.jpg", "sol.jpg", "paris.jpg"];
     var random_number = Math.floor(Math.random() *4);

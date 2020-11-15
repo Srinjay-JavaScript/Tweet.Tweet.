@@ -5,7 +5,7 @@
 }
 
 body {
-	background: rgb(185, 181, 185);
+	background: rgb(253, 195, 172);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,7 +17,7 @@ body {
 
 h1 {
 	font-weight: bold;
-	margin: 0;
+	/* margin: 0; */
 }
 
 p {
@@ -25,7 +25,7 @@ p {
 	font-weight: 100;
 	line-height: 20px;
 	letter-spacing: 0.5px;
-	margin: 20px 0 30px;
+	/* margin: 20px 0 30px; */
 }
 
 span {
@@ -45,7 +45,7 @@ a:visited{
 	text-decoration: none;
 }
 
-button {
+.forButtons{
 	border: 1px solid black;
 	background-color: black;
 	color: #FFFFFF;
@@ -55,10 +55,15 @@ button {
     width: 100%;
 	transition: transform 80ms ease-in;
 }
- 
-button:hover{
-	opacity: 0.6;
+.forButtons:hover{
+	background-color: white;
+	color: black;
+	border: black 2px solid;
+	cursor: pointer;
 }
+
+ 
+
 
 .login_form {
 	background-color: #FFFFFF;
@@ -73,7 +78,7 @@ button:hover{
 
 input {
 	background-color: white;
-	border: rgb(192, 188, 192), 3px, solid;
+	border: black, 3px, solid;
 	padding: 12px 15px;
 	margin: 8px 0;
 	width: 100%;
@@ -81,15 +86,30 @@ input {
 
 
 .container {
-	background-color: #fff;
+	background-color: white;
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	position: relative;
 	overflow: hidden;
 	width: 1000px;
 	max-width: 100%;
-    min-height: 650px;
+     min-height: 650px;
 }
+/* .containerTweetTweet {
+	background-color: white;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 600px;
+	max-width: 100%;
+    min-height: 130px;
+} */
+@media (max-width: 700px) {
+	.overlay-container, .container, .log-in-container {   
+	  flex-direction: column;
+	}
+  }
 
 .log-in-container {
 	position: absolute;
