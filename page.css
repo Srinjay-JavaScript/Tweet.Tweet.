@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+.body2 {
+  background: rgb(253, 195, 172);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.input2 {
+  background-color: white;
+  border: black, 3px, solid;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 1000px;
+}
+
+.input_div_message_page {
+  padding: 10px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  margin-top: 300px;
+}
+
+#trending_rooms {
+  padding: 10px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+}
+.forButtons {
+  border: 1px solid black;
+  background-color: black;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  width: 100%;
+  transition: transform 80ms ease-in;
+}
+.forButtons:hover {
+  background-color: white;
+  color: black;
+  border: black 2px solid;
+  cursor: pointer;
+}
+.user_tick {
+  width: 20px;
+}
