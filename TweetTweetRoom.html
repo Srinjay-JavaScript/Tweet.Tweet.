@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tweet.Tweet.</title>
+        <link rel="shortcut icon" href="tweet.png" type="x/image">
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>    
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="check()">
+        <button class="forButtons" style="position: fixed; bottom: 712px;  font-family: 'Montserrat', sans-serif;">Log Out</button>
+        <img class="display-horizontal" id="logo" src="tweet.png"  width="90px" height="90px">
+        <h1 style="font-weight: bold; font-size: 45px;">Tweet.Tweet.</h1>
+        <h1 id="display_name" style="font-weight: bold; font-size: 25px;"></h1>
+        <center>
+        <div>
+            <input style="font-family: 'Montserrat', sans-serif; width: 500px;" placeholder="Create #roomname" id="created_rn">
+            <button style="font-family: 'Montserrat', sans-serif; width: 500px;" onclick="add_room()" class="forButtons">Create</button>
+        </div>
+
+        <h1 style="font-family: 'Montserrat', sans-serif; font-weight: bolder;" class="color_white">#TRENDINGROOMS</h1>
+		<div id="trending_rooms"></div>
+        </center>
+   
+    </body>
+    <script src="Tweet.js"></script>
+</html>

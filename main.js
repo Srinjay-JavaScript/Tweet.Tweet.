@@ -42,8 +42,9 @@ function Alertcheck(){
            }
            else{
                localStorage.setItem("user_name", user_name);
+               sessionStorage.setItem("user_name", user_name);
                localStorage.setItem("user_password", userPaswordvalue);
-               window.location = "TweetTweet.html";
+               window.location = "TweetTweetRoom.html";
            }
     }
     // if (userPasswordCharacters < 8){
